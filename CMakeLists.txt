@@ -36,7 +36,7 @@ set(VERSION_PATCH 0)
 
 # First find gnuradio to get access to required cmake modules
 
-find_package(Gnuradio "3.11" REQUIRED runtime blocks fft filter qtgui)
+find_package(Gnuradio "3.10" REQUIRED runtime blocks fft filter qtgui)
 
 cmake_policy(SET CMP0011 NEW)
 
